@@ -28,7 +28,7 @@ class Container {
         await this.actualizar()
         let id = 1
         if (this.objects.length > 0){
-            id = this.objects[this.objects.length-1].id + 1
+            id = this.objects.at(-1).id + 1
         }
         obj.id = id
         this.objects.push(obj)
