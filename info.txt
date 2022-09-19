@@ -1,0 +1,5 @@
+[
+  { title: 'Parlantes', id: 1 },
+  { title: 'Celulares', id: 2 },
+  { title: 'Micrófonos', id: 3 }
+]
