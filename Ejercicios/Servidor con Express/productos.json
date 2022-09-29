@@ -1,0 +1,17 @@
+[
+  {
+    "title":"Piedra",
+    "price":100.12,
+    "id":1
+  },
+  {
+    "title":"Papel",
+    "price":150.34,
+    "id":2
+  },
+  {
+    "title":"Tijera",
+    "price":200.56,
+    "id":3
+  }
+]
