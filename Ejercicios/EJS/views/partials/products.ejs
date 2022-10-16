@@ -1,0 +1,18 @@
+<div class="product-container">
+    <h1>Productos</h1>
+    <div class="col-title">
+        <span>Nombre</span>
+        <span>Precio</span>
+        <span>Imagen</span>
+    </div>
+    <% if (products.length == 0) { %>
+        <h1 class="no-prod">No hay productos</h1>
+    <% } %>
+    <% products.forEach(elem => { %>
+        <div class="product-item">
+            <span class="product-title"><%= elem.title %></span>
+            <span class="product-price"><%= elem.price %></span>
+            <span class="product-image"><a href="<%= elem.thumbnail %>" target="_blank"><img src="<%= elem.thumbnail %>" alt="<%= elem.title %>"></a></span>
+        </div>
+    <% }) %>
+</div>
